@@ -39,3 +39,5 @@ async def admin_mode(message: types.Message):
         config.ADMINS.append(cid)
 
     await message.answer('Включен админский режим.', reply_markup=ReplyKeyboardRemove())
+
+if __name__ == '__main__':
