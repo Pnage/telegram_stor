@@ -40,4 +40,3 @@ async def admin_mode(message: types.Message):
 
     await message.answer('Включен админский режим.', reply_markup=ReplyKeyboardRemove())
 
-if __name__ == '__main__':
